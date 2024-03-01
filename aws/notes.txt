@@ -1,0 +1,7 @@
+1 - created account using freinque_admi
+2 - set up 2FA on root user using google authenticator
+3 - create keypair EC2 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/create-key-pairs.html
+4 - add ca-west-1 AZ to account
+5 - update parameters in json file
+6 - deploy
+7 - monitor for costs, kill instances that are on by default

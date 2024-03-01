@@ -1,0 +1,27 @@
+[
+  {
+    "ParameterKey": "AvailabilityZones",
+    "ParameterValue": [ "ca-central-1", "ca-west-1" ]
+  },
+  {
+    "ParameterKey": "KeyPairName",
+    "ParameterValue": "freinquekp"
+  },
+  {
+    "ParameterKey": "EnableRedshift",
+    "ParameterValue": "no"
+  },
+  {
+    "ParameterKey": "MakeRedshiftPubliclyAccessible",
+    "ParameterValue": "no"
+  },
+  {
+    "ParameterKey": "QSS3BucketName",
+    "ParameterValue": "aws-ia-us-east-1"
+  },
+  {
+    "ParameterKey": "RemoteAccessCIDR",
+    "ParameterValue": "192.226.136.16/32"
+  }
+]
+
