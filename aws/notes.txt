@@ -5,3 +5,13 @@
 5 - update parameters in json file
 6 - deploy
 7 - monitor for costs, kill instances that are on by default
+
+to save costs:
+-delete elasticsearch instance
+-in ec2 autoscaling groups, set autoscaling to suspend launch actions
+https://docs.aws.amazon.com/autoscaling/ec2/userguide/as-suspend-resume-processes.html
+
+usage:
+access bastion: 
+ssh -i freinquekp.pem ec2-user@15.222.141.167
+
